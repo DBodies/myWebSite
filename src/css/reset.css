@@ -6,6 +6,7 @@ h5,
 h6,
 p {
   margin: 0;
+  color: rgb(0, 0, 0);
 }
 
 p:last-child {
@@ -21,14 +22,29 @@ ul {
 a {
   color: currentColor;
   text-decoration: none;
+  color: white;
 }
 
 button {
   cursor: pointer;
+  border: none;
+  background: none;
+  color: white;
 }
 
 img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
