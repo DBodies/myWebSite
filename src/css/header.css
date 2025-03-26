@@ -63,7 +63,7 @@
   transition: 250ms ease-in;
 }
 .btnSwitcher:hover {
-  background: #1d1662;
+  background: #000000;
 }
 
 .btnSwitcher:active {

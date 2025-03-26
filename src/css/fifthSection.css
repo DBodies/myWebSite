@@ -54,11 +54,11 @@ color: var(--white-color);
 }
 .siteDscr {
     font-weight: 400;
-font-size: 40px;
+font-size: 32px;
 color: var(--white-color);
 }
 .secondProject {
-    font-size: 40px;
+    font-size:32px;
 }
 .linkReverse {
     margin-right: 0;

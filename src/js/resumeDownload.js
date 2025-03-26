@@ -5,7 +5,7 @@ export function setupResume() {
 
     function updateResumeLink() {
         const currentLang = i18next.language;
-        const resumePath = currentLang === "ua" ? "/src/resume/Денис Ковалевський Резюме.pdf" : "/src/resume/Denis Kovalevskiy CV.pdf";
+        const resumePath = currentLang === "ua" ? "./resume/Денис Ковалевський Резюме.pdf" : "./resume/Denis Kovalevskiy CV.pdf";
 
         resumeLink.setAttribute("href", resumePath);
     }

@@ -6,7 +6,6 @@ export function sendMessageToEmail() {
     document.getElementById("contactForm").addEventListener("submit", function (event) {
         event.preventDefault();
 
-        // emailjs.sendForm("service_k5hgu9n", "template_rwqdscw", this, "PWgT1DM4RP6JfgjgI")
         emailjs.sendForm("service_v64hjbr", "template_dsit18g", this, "iIrOnQPlhWq2JRKpi")
             .then((response) => {
                 if (response && response.status === 200) {
