@@ -10,7 +10,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 64px;
+  gap: 48px;
 }
 
 .wrapperForSkills p {
@@ -112,7 +112,7 @@
 .wrapperForThirdRaw {
   display: flex;
   justify-content: center;
-  gap: 270px;
+  gap: 250px;
 }
 
 .wrapperForFourthRaw {
