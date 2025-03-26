@@ -1,6 +1,6 @@
 .sixthSection-title {
     font-weight: 400;
-font-size: 80px;
+font-size: 64px;
 text-align: center;
 color: var(--white-color);
 margin-bottom: 64px;
@@ -18,26 +18,27 @@ margin-bottom: 64px;
 }
 .writeMe {
     font-weight: 600;
-font-size: 32px;
+font-size: 36px;
     color: var(--white-color);
 }
 .dscrText {
-    font-weight: 600;
-    max-width: 600px;
+font-weight: 400;
 font-size: 32px;
+max-width: 600px;
     color: var(--white-color);
-
+margin-bottom: 16px;
 }
 .tgSvg {
     fill: var(--white-color);
-    margin-right: 12px;
+    margin-right: 24px;
 }
 .linkContact {
         display: flex;
     align-items: center;
-        font-weight: 600;
+font-weight: 400;
 font-size: 32px;
     color: var(--white-color);
+    margin-bottom: 24px;
 }
 
 .linkContact:hover {
@@ -70,7 +71,7 @@ font-size: 32px;
 #message:focus {
   outline: none;
     border: none;
-box-shadow: inset 0px 0px 25px rgba(169, 98, 255, 0.5);
+border: 2px solid rgb(169, 98, 255);
     font-size: 20px;
 }
 .btnSubmit {

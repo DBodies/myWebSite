@@ -72,7 +72,7 @@ align-items: flex-start;
     flex-direction: column;
 gap: 14px;
 max-width: 1000px;
-padding: 72px 120px;
+padding: 64px 120px;
    border: 3px solid var(--white-color);
    border-right: none;
    border-bottom: none;
@@ -85,7 +85,7 @@ margin-right: auto;
 }
 
 .courses {
-    padding: 72px 120px;
+    padding: 64px 120px;
     position: relative;
     left: -270px;
 }
@@ -95,7 +95,7 @@ margin-right: auto;
 }
 
 .university {
-padding: 72px 120px;
+padding: 64px 120px;
 position: relative;
 left: -35px;
 }

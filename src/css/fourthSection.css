@@ -3,6 +3,7 @@
   font-weight: 400;
   font-size: 80px;
   text-align: center;
+  margin-bottom: 40px;
 }
 
 .wrapperForSkills {
@@ -12,18 +13,11 @@
   gap: 64px;
 }
 
-.wrapperForSkills .nameOfSkills15 {
-}
-
 .wrapperForSkills p {
   color: var(--white-color);
   font-weight: 400;
-font-size: 48px;
 }
 
-.nameOfSkills {
-  text-align: center;
-}
 .wrapperForFirstRaw {
   display: flex;
   justify-content: center;
@@ -33,33 +27,103 @@ font-size: 48px;
 .wrapperForSecondRaw {
   display: flex;
   justify-content: center;
-  gap: 340px  ;
-} 
+  gap: 340px;
+  align-items: center;
+}
+
+.nameOfSkills16,
+.nameOfSkills14,
+.nameOfSkills3,
+.nameOfSkills2,
+.nameOfSkills4,
+.nameOfSkills11,
+.nameOfSkills12,
+.nameOfSkills7,
+.nameOfSkills5,
+.nameOfSkills,
+.lastSkills {
+  text-align: center;
+  font-size: 48px;
+  transition: 250ms ease;
+}
+
+.nameOfSkills16:hover,
+.nameOfSkills14:hover,
+.nameOfSkills3:hover,
+.nameOfSkills2:hover,
+.nameOfSkills4:hover,
+.nameOfSkills11:hover,
+.nameOfSkills12:hover,
+.nameOfSkills7:hover,
+.nameOfSkills5:hover,
+.nameOfSkills:hover,
+.lastSkills:hover {
+  transform: scale(1.2);
+}
 
 .nameOfSkills5 {
   position: relative;
-    left: -50px;
+  left: -40px;
+  font-size: 64px;
 }
 
+.nameOfSkills11 {
+  position: relative;
+  left: -40px;
+}
+
+.nameOfSkills7 {
+      position: relative;
+  left: -60px;
+}
+
+.nameOfSkills12 {
+    position: relative;
+  left: -20px;
+}
+
+.nameOfSkills8,
+.nameOfSkills9,
+.nameOfSkills10,
+.nameOfSkills13 {
+  font-size: 64px;
+    transition: 250ms ease;
+}
+
+
+.nameOfSkills8:hover,
+.nameOfSkills9:hover,
+.nameOfSkills10:hover,
+.nameOfSkills13:hover {
+    transform: scale(1.2);
+}
+
+.nameOfSkills15 {
+  font-size: 80px;
+    transition: 250ms ease;
+}
+
+.nameOfSkills15:hover {
+  transform: scale(1.2);
+}
+
+
+
 .wrapperForThirdRaw {
-    display: flex;
+  display: flex;
   justify-content: center;
   gap: 320px;
 }
 
 .wrapperForFourthRaw {
-      display: flex;
+  display: flex;
   justify-content: center;
-  gap: 400px;
-
+  gap: 430px;
+  align-items: center;
 }
 
 .wrapperForFifthRaw {
-      display: flex;
+  display: flex;
   justify-content: center;
   gap: 600px;
-}
-
-.lastSkills {
-  text-align: center;
 }
