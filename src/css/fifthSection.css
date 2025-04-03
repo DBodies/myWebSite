@@ -52,6 +52,13 @@ color: var(--white-color);
     margin-left: auto;
      filter: drop-shadow(-80px 0 60px rgba(221, 0, 255, 0.2));
 }
+
+.linkToSite {
+        font-weight: 400;
+font-size: 32px;
+color: var(--white-color);
+}
+
 .siteDscr {
     font-weight: 400;
 font-size: 32px;
@@ -64,4 +71,10 @@ color: var(--white-color);
     margin-right: 0;
     margin-left: 60px;
           box-shadow: -400px -2150px 500px rgba(221, 0, 255, 0.15);
+}
+
+.svgBottomIcom {
+    display: flex;
+    margin: 0 auto;
+    fill: white;
 }

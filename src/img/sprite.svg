@@ -38,5 +38,8 @@
         <symbol id="icon-svgreadmore" viewBox="0 0 31 32">
             <path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.9394" d="M2.586 26.884c3.163-3.862 5.972-6.053 8.427-6.573s4.792-0.599 7.011-0.236v6.915l10.42-11.284-10.42-10.696v6.573c-4.104 0.032-7.593 1.505-10.468 4.417s-4.53 6.541-4.971 10.884z"></path>
         </symbol>
+                <symbol id="icon-vector" viewBox="0 0 52 32">
+            <path d="M23.334 28.887 2 7.377 7.332 2 26 20.822 44.668 2 50 7.377l-21.334 21.51C27.959 29.6 27 30 26 30s-1.959-.4-2.666-1.113z"/>
+        </symbol>
     </defs>
 </svg>
