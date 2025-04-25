@@ -7,9 +7,6 @@ export function notification() {
 
     iziToast.show({
         title: currentLang === "ua" ? "Ви можете змінити мову на Eng" : "U can change language to Ukrainian",
-        message: currentLang === "ua"
-            ? "Якщо мова Uk - завантажується українське резюме, якщо Eng - англійське резюме."
-            : "If the language is Eng, an English resume is downloaded if the language is Uk, the Ukrainian resume is downloaded.",
         position: "topRight",
         timeout: 10000,
     });
