@@ -27,7 +27,7 @@ export function langSwitcher() {
                     readMore: "Read more",
                     myDscr: "I am a full-stack developer with experience in the banking industry. My background helped me develop essential soft skills, which I now apply in the IT field. I have been self-learning IT through courses and personal curiosity. During my learning journey, I successfully completed more than 8 pet projects, focusing on [specific technologies or areas]. Additionally, I led a team project related to the completion of an HTML+CSS course",
                     privatBank: "PrivatBank",
-                    workExp: "Word experience",
+                    workExp: "Work experience",
                     workTime: "2022 - 2024",
                     firstExp: "Experienced in working with international clients",
                     secondExp: "Analyzed customer needs and provided personalized service",
